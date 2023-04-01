@@ -1,5 +1,25 @@
+import { BsHouseFill, BsBellFill } from 'react-icons/bs';
+import { FaUser } from 'react-icons/fa';
+
 const Sidebar = () => {
-  return <div></div>;
+  const items = [
+    {
+      label: 'Home',
+      href: '/',
+      icon: BsHouseFill,
+    },
+    {
+      label: 'Notifications',
+      href: '/notifications',
+      icon: BsBellFill,
+    },
+    {
+      label: 'Profile',
+      href: '/users/123',
+      icon: FaUser,
+    },
+  ];
+  return <div className="col-span-1 h-full pr-4"></div>;
 };
 
 export default Sidebar;
