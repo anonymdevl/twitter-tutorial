@@ -4,7 +4,7 @@ interface SidebarItemProps {
   label: string;
   href?: string;
   icon: IconType;
-  onclick: () => void;
+  onclick?: () => void;
 }
 const SidebarItem: React.FC<SidebarItemProps> = ({
   label,

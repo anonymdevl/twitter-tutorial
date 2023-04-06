@@ -32,9 +32,6 @@ const Sidebar = () => {
               href={item.href}
               label={item.label}
               icon={item.icon}
-              onclick={function (): void {
-                throw new Error('Function not implemented.');
-              }}
             />
           ))}
         </div>
